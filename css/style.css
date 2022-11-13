@@ -1,0 +1,208 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+* {
+    font-family: 'Press Start 2P', cursive;
+    padding: 0;
+    margin: 0;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+.div-1 {
+    height: 80vh;
+    background-image: url(../css/images/narutovalleybackground.png);
+
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    display: flex;
+    flex-direction: column;
+}
+
+.header {
+    display: flex;
+    flex-direction: row;
+    height: 50vh;
+    padding: 0px;
+    margin: 0px;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+.header-1 {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.status {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(136, 136, 112);
+    text-align: center;
+}
+
+.header-2 {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    font-size: 10px;
+    text-align: center;
+}
+
+.card-title {
+    font-size: 10px;
+}
+
+.game_image {
+    width: 100px;
+    height: 100px;
+}
+
+#computer,
+#user {
+    margin-bottom: 30px;
+}
+
+.text_result {
+    font-size: 10px;
+    margin-bottom: 10px;
+}
+
+
+
+.score_keep {
+    font-size: 15px;
+    font-weight: bold;
+    color: rgb(251, 251, 251);
+}
+
+.characters {
+    height: 30vh;
+    width: 100%;
+    display: flex;
+    align-items: flex-end;
+}
+
+.gif {
+    height: 100px;
+    margin-bottom: 30px;
+}
+
+.char-1 {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.char-2 {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.buttons1 {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+button {
+    cursor: pointer;
+    width: auto;
+    margin: 10px;
+    padding: 5px;
+    font-size: 7px;
+    background-color: rgb(62, 78, 179);
+    color: white;
+    border-radius: 4px;
+}
+
+.result,
+.game_count {
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center
+}
+
+@media (min-width: 400px) {
+    button {
+        width: auto;
+        margin: 10px;
+        padding: 5px;
+        font-size: 11px;
+        background-color: rgb(62, 78, 179);
+        color: white;
+        border-radius: 4px;
+        cursor: pointer;
+    }
+
+    .result {
+        font-size: 30px;
+    }
+
+}
+
+@media (min-width: 700px) {
+    .gif {
+        height: 150px;
+    }
+
+    .card-title {
+        font-size: 20px;
+    }
+
+    .game_image {
+        width: 100px;
+        height: 100px;
+
+    }
+
+    #computer,
+    #user {
+        margin-bottom: 30px;
+    }
+
+    .text_result {
+        font-size: 15px;
+        margin-bottom: 10px;
+    }
+
+    .result {
+        font-size: 40px;
+    }
+
+    .score_keep {
+        font-size: 20px;
+    }
+
+    button {
+        width: auto;
+        margin: 10px;
+        padding: 5px;
+        font-size: 15px;
+        background-color: rgb(62, 78, 179);
+        color: white;
+        border-radius: 4px;
+        cursor: pointer;
+    }
+}
